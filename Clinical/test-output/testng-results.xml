@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Test Default test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : CampaignLogin.LoginTest]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : CampaignLogin.LoginTest]]>
+    </line>
+    <line>
+      <![CDATA[//input[@name='userid'] : <B>root</B> !]]>
+    </line>
+    <line>
+      <![CDATA[//input[@name='password'] : <B>password</B> !]]>
+    </line>
+    <line>
+      <![CDATA[<B>button.Submit</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[<B>000190 CH West Coast 1/Fac 0190 alt12</B> : Clicked ! ]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : CampaignLogin.LoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : CampaignLogin.LoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in CampaignLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+    </line>
+    <line>
+      <![CDATA[Menu :<B>MPI</B> Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[Menu :<B>MPI Patient Summary</B> Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[By.xpath: //form[@id='frmPatSearchCriteria']//select[@id='cboSearchBy'] : <B> MPI MRN</B> Selected !]]>
+    </line>
+    <line>
+      <![CDATA[In Text Box <B>txtMedRec</B> set value  <B>985</B>!]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdSearch</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.id: lstMenuItm]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.id: lstMenuItmis found]]>
+    </line>
+    <line>
+      <![CDATA[By.id: lstMenuItm : <B> History Notes Maintenance</B> Selected !]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdAdd</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[<B>imgCtgry</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[<B>imgCommentCode</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[In Text Box <B>txtHistoryExpDate</B> set value  <B>08/12/2018</B>!]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdAddUpdate</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+    </line>
+    <line>
+      <![CDATA[An MPI History Notes Maintenance record has been added to the system, which is as expected]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]is found]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdEdit</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[In Text Box <B>txtHistoryExpDate</B> set value  <B>08/14/2018</B>!]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdAddUpdate</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]is found]]>
+    </line>
+    <line>
+      <![CDATA[An MPI History Notes Maintenance record has been edited in the system, which is as expected]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdShowSearch</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[In Text Box <B>txtStartDate</B> set value  <B>08/07/2018</B>!]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdSearch</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+    </line>
+    <line>
+      <![CDATA[Failed to search an MPI History Notes Maintenance records in the system, which is not as expected]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdShowFilter</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[Dropdown <B>By.id: cboCatCode</B> Selected <B>COLL - COLLECTOR</B>.]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdFilter</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+    </line>
+    <line>
+      <![CDATA[By.id: cboCatCode : <B> 271 - 271 COMMENTS</B> Selected !]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdFilter</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+    </line>
+    <line>
+      <![CDATA[An MPI History Notes Maintenance records has been filtered from the system, which is as expected]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+    </line>
+    <line>
+      <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+    </line>
+    <line>
+      <![CDATA[<B>cmdDelete</B> :  Clicked !]]>
+    </line>
+    <line>
+      <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+    </line>
+    <line>
+      <![CDATA[An MPI History Notes Maintenance record has been deleted from the system, which is as expected]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in CampaignMPIHistoryNotesMaintenace]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="179835" started-at="2018-08-07T11:19:21Z" finished-at="2018-08-07T11:22:20Z">
+    <groups>
+      <group name="CampaignLogin">
+        <method signature="CampaignLogin.LoginTest()[pri:1, instance:CampaignLogin@51565ec2]" name="LoginTest" class="CampaignLogin"/>
+      </group> <!-- CampaignLogin -->
+    </groups>
+    <test name="Default test" duration-ms="179835" started-at="2018-08-07T11:19:21Z" finished-at="2018-08-07T11:22:20Z">
+      <class name="CampaignMPIHistoryNotesMaintenace">
+        <test-method status="PASS" signature="allergies()[pri:2, instance:CampaignMPIHistoryNotesMaintenace@68be2bc2]" name="allergies" duration-ms="165763" depends-on-groups="CampaignLogin" started-at="2018-08-07T01:19:35Z" finished-at="2018-08-07T01:22:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+            </line>
+            <line>
+              <![CDATA[Menu :<B>MPI</B> Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[Menu :<B>MPI Patient Summary</B> Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[By.xpath: //form[@id='frmPatSearchCriteria']//select[@id='cboSearchBy'] : <B> MPI MRN</B> Selected !]]>
+            </line>
+            <line>
+              <![CDATA[In Text Box <B>txtMedRec</B> set value  <B>985</B>!]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdSearch</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.id: lstMenuItm]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.id: lstMenuItmis found]]>
+            </line>
+            <line>
+              <![CDATA[By.id: lstMenuItm : <B> History Notes Maintenance</B> Selected !]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdAdd</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[<B>imgCtgry</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[<B>imgCommentCode</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[In Text Box <B>txtHistoryExpDate</B> set value  <B>08/12/2018</B>!]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdAddUpdate</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+            </line>
+            <line>
+              <![CDATA[An MPI History Notes Maintenance record has been added to the system, which is as expected]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]is found]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdEdit</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[In Text Box <B>txtHistoryExpDate</B> set value  <B>08/14/2018</B>!]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdAddUpdate</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]is found]]>
+            </line>
+            <line>
+              <![CDATA[An MPI History Notes Maintenance record has been edited in the system, which is as expected]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdShowSearch</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[In Text Box <B>txtStartDate</B> set value  <B>08/07/2018</B>!]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdSearch</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+            </line>
+            <line>
+              <![CDATA[Failed to search an MPI History Notes Maintenance records in the system, which is not as expected]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdShowFilter</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[Dropdown <B>By.id: cboCatCode</B> Selected <B>COLL - COLLECTOR</B>.]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdFilter</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+            </line>
+            <line>
+              <![CDATA[By.id: cboCatCode : <B> 271 - 271 COMMENTS</B> Selected !]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdFilter</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+            </line>
+            <line>
+              <![CDATA[An MPI History Notes Maintenance records has been filtered from the system, which is as expected]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+            </line>
+            <line>
+              <![CDATA[Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found]]>
+            </line>
+            <line>
+              <![CDATA[<B>cmdDelete</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found]]>
+            </line>
+            <line>
+              <![CDATA[An MPI History Notes Maintenance record has been deleted from the system, which is as expected]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : CampaignMPIHistoryNotesMaintenace.allergies]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in CampaignMPIHistoryNotesMaintenace]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- allergies -->
+      </class> <!-- CampaignMPIHistoryNotesMaintenace -->
+      <class name="CampaignLogin">
+        <test-method status="PASS" signature="LoginTest()[pri:1, instance:CampaignLogin@51565ec2]" name="LoginTest" duration-ms="14031" started-at="2018-08-07T01:19:21Z" finished-at="2018-08-07T01:19:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : CampaignLogin.LoginTest]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : CampaignLogin.LoginTest]]>
+            </line>
+            <line>
+              <![CDATA[//input[@name='userid'] : <B>root</B> !]]>
+            </line>
+            <line>
+              <![CDATA[//input[@name='password'] : <B>password</B> !]]>
+            </line>
+            <line>
+              <![CDATA[<B>button.Submit</B> :  Clicked !]]>
+            </line>
+            <line>
+              <![CDATA[<B>000190 CH West Coast 1/Fac 0190 alt12</B> : Clicked ! ]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : CampaignLogin.LoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : CampaignLogin.LoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in CampaignLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- CampaignLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Suite -->
+</testng-results>

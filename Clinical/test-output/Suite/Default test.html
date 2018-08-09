@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 07 01:19:21 HST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>179 seconds (179835 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CampaignLogin.LoginTest()'><b>LoginTest</b><br>Test class: CampaignLogin<br/>
+<a href="#Output-403170294" onClick='toggleBox("Output-403170294", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-403170294" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-403170294">
+About to begin executing following method : CampaignLogin.LoginTest<br/>
+About to begin executing following method : CampaignLogin.LoginTest<br/>
+//input[@name='userid'] : <B>root</B> !<br/>
+//input[@name='password'] : <B>password</B> !<br/>
+<B>button.Submit</B> :  Clicked !<br/>
+<B>000190 CH West Coast 1/Fac 0190 alt12</B> : Clicked ! <br/>
+Completed executing following method : CampaignLogin.LoginTest<br/>
+Completed executing following method : CampaignLogin.LoginTest<br/>
+Test Method resides in CampaignLogin<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>CampaignLogin@51565ec2</td></tr>
+<tr>
+<td title='CampaignMPIHistoryNotesMaintenace.allergies()'><b>allergies</b><br>Test class: CampaignMPIHistoryNotesMaintenace<br/>
+<a href="#Output-1188401255" onClick='toggleBox("Output-1188401255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1188401255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1188401255">
+About to begin executing following method : CampaignMPIHistoryNotesMaintenace.allergies<br/>
+About to begin executing following method : CampaignMPIHistoryNotesMaintenace.allergies<br/>
+Menu :<B>MPI</B> Clicked !<br/>
+Menu :<B>MPI Patient Summary</B> Clicked !<br/>
+By.xpath: //form[@id='frmPatSearchCriteria']//select[@id='cboSearchBy'] : <B> MPI MRN</B> Selected !<br/>
+In Text Box <B>txtMedRec</B> set value  <B>985</B>!<br/>
+<B>cmdSearch</B> :  Clicked !<br/>
+Looking for WebElement: By.id: lstMenuItm<br/>
+WebElement: By.id: lstMenuItmis found<br/>
+By.id: lstMenuItm : <B> History Notes Maintenance</B> Selected !<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found<br/>
+<B>cmdAdd</B> :  Clicked !<br/>
+<B>imgCtgry</B> :  Clicked !<br/>
+<B>imgCommentCode</B> :  Clicked !<br/>
+In Text Box <B>txtHistoryExpDate</B> set value  <B>08/12/2018</B>!<br/>
+<B>cmdAddUpdate</B> :  Clicked !<br/>
+Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found<br/>
+An MPI History Notes Maintenance record has been added to the system, which is as expected<br/>
+Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]is found<br/>
+Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found<br/>
+<B>cmdEdit</B> :  Clicked !<br/>
+In Text Box <B>txtHistoryExpDate</B> set value  <B>08/14/2018</B>!<br/>
+<B>cmdAddUpdate</B> :  Clicked !<br/>
+Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]/td[6]is found<br/>
+An MPI History Notes Maintenance record has been edited in the system, which is as expected<br/>
+<B>cmdShowSearch</B> :  Clicked !<br/>
+In Text Box <B>txtStartDate</B> set value  <B>08/07/2018</B>!<br/>
+<B>cmdSearch</B> :  Clicked !<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found<br/>
+Failed to search an MPI History Notes Maintenance records in the system, which is not as expected<br/>
+<B>cmdShowFilter</B> :  Clicked !<br/>
+Dropdown <B>By.id: cboCatCode</B> Selected <B>COLL - COLLECTOR</B>.<br/>
+<B>cmdFilter</B> :  Clicked !<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found<br/>
+By.id: cboCatCode : <B> 271 - 271 COMMENTS</B> Selected !<br/>
+<B>cmdFilter</B> :  Clicked !<br/>
+Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found<br/>
+An MPI History Notes Maintenance records has been filtered from the system, which is as expected<br/>
+Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found<br/>
+Looking for WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is found<br/>
+<B>cmdDelete</B> :  Clicked !<br/>
+WebElement: By.xpath: //div[@class='TundraFrame']/table[@id='tblDetails']/tbody//tr[contains(@class,'TundraRow')]is not found<br/>
+An MPI History Notes Maintenance record has been deleted from the system, which is as expected<br/>
+Completed executing following method : CampaignMPIHistoryNotesMaintenace.allergies<br/>
+Completed executing following method : CampaignMPIHistoryNotesMaintenace.allergies<br/>
+Test Method resides in CampaignMPIHistoryNotesMaintenace<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>165</td>
+<td>CampaignMPIHistoryNotesMaintenace@68be2bc2</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1197 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 30 00:51:02 HST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>1248 seconds (1248975 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.allergies()'><b>allergies</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1202220987" onClick='toggleBox("Output-1202220987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202220987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202220987">
+About to begin executing following method : CampaignHistoryAndPhysicial.allergies<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.allergies<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.allergies<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.allergies<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Failed<br/>
+Unable to find element with xpath == //*[@id='ALG_titleBarNode']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id='ALG_titleBarNode']}<br/>
+Unable to find element with xpath == //*[@id='ALG_titleBarNode']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id='ALG_titleBarNode']}<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;ALG_titleBarNode&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id=&apos;ALG_titleBarNode&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.getElement(CommonLib.java:507)
+	at historyAndPhysical.pages.HistoryAndPhysicial.isGridOpen(HistoryAndPhysicial.java:65)
+	at historyAndPhysical.testcases.HnPTestCases.allergiesAdd(HnPTestCases.java:806)
+	at CampaignHistoryAndPhysicial.allergies(CampaignHistoryAndPhysicial.java:67)
+	at CampaignLogin.main(CampaignLogin.java:21)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1202220987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1202220987'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;ALG_titleBarNode&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id=&apos;ALG_titleBarNode&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.getElement(CommonLib.java:507)
+	at historyAndPhysical.pages.HistoryAndPhysicial.isGridOpen(HistoryAndPhysicial.java:65)
+	at historyAndPhysical.testcases.HnPTestCases.allergiesAdd(HnPTestCases.java:806)
+	at CampaignHistoryAndPhysicial.allergies(CampaignHistoryAndPhysicial.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at CampaignLogin.main(CampaignLogin.java:21)
+</pre></div></td>
+<td>10</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.chiefComplaint()'><b>chiefComplaint</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1458621573" onClick='toggleBox("Output-1458621573", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1458621573" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1458621573">
+About to begin executing following method : CampaignHistoryAndPhysicial.chiefComplaint<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.chiefComplaint<br/>
+Menu :<B>Phys Doc</B> Clicked !<br/>
+Menu :<B>History and Physical</B> Clicked !<br/>
+<B>+Chief Complaint</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='chiefComplaint6']/../..//label</B> : <B>Headache</B><br/>
+<B>chiefComplaint6</B> :  Clicked !<br/>
+<B>Submit</B> :  Clicked !<br/>
+Selected chief complaint : Headache added<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.chiefComplaint<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.chiefComplaint<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Failed<br/>
+Element must not be hidden, disabled or read-only
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20<br/>
+Element must not be hidden, disabled or read-only
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.InvalidElementStateException: Element must not be hidden, disabled or read-only
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+	at common.CommonLib.setData(CommonLib.java:587)
+	at historyAndPhysical.pages.HistoryAndPhysicial.setAdditionalComplaints(HistoryAndPhysicial.java:165)
+	at historyAndPhysical.testcases.HnPTestCases.chiefComplaintTestCases(HnPTestCases.java:104)
+	at CampaignHistoryAndPhysicial.chiefComplaint(CampaignHistoryAndPhysicial.java:12)
+	at CampaignLogin.main(CampaignLogin.java:21)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1458621573", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1458621573'><pre>org.openqa.selenium.InvalidElementStateException: Element must not be hidden, disabled or read-only
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+	at common.CommonLib.setData(CommonLib.java:587)
+	at historyAndPhysical.pages.HistoryAndPhysicial.setAdditionalComplaints(HistoryAndPhysicial.java:165)
+	at historyAndPhysical.testcases.HnPTestCases.chiefComplaintTestCases(HnPTestCases.java:104)
+	at CampaignHistoryAndPhysicial.chiefComplaint(CampaignHistoryAndPhysicial.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at CampaignLogin.main(CampaignLogin.java:21)
+</pre></div></td>
+<td>44</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.homeMedication()'><b>homeMedication</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1130346421" onClick='toggleBox("Output-1130346421", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1130346421" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1130346421">
+About to begin executing following method : CampaignHistoryAndPhysicial.homeMedication<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.homeMedication<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.homeMedication<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.homeMedication<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Failed<br/>
+Unable to find element with xpath == //*[@id='MED_titleBarNode']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id='MED_titleBarNode']}<br/>
+Unable to find element with xpath == //*[@id='MED_titleBarNode']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id='MED_titleBarNode']}<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;MED_titleBarNode&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id=&apos;MED_titleBarNode&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.clickButton(CommonLib.java:783)
+	at historyAndPhysical.pages.HistoryAndPhysicial.clickGrid(HistoryAndPhysicial.java:60)
+	at historyAndPhysical.pages.HistoryAndPhysicial.actionOnGrid(HistoryAndPhysicial.java:171)
+	at historyAndPhysical.testcases.HnPTestCases.homeMedicationTestCases(HnPTestCases.java:505)
+	at CampaignHistoryAndPhysicial.homeMedication(CampaignHistoryAndPhysicial.java:61)
+	at CampaignLogin.main(CampaignLogin.java:21)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1130346421", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1130346421'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;MED_titleBarNode&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id=&apos;MED_titleBarNode&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.clickButton(CommonLib.java:783)
+	at historyAndPhysical.pages.HistoryAndPhysicial.clickGrid(HistoryAndPhysicial.java:60)
+	at historyAndPhysical.pages.HistoryAndPhysicial.actionOnGrid(HistoryAndPhysicial.java:171)
+	at historyAndPhysical.testcases.HnPTestCases.homeMedicationTestCases(HnPTestCases.java:505)
+	at CampaignHistoryAndPhysicial.homeMedication(CampaignHistoryAndPhysicial.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at CampaignLogin.main(CampaignLogin.java:21)
+</pre></div></td>
+<td>20</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.immunization()'><b>immunization</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1894758168" onClick='toggleBox("Output-1894758168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1894758168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1894758168">
+About to begin executing following method : CampaignHistoryAndPhysicial.immunization<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.immunization<br/>
+<B>Immunization
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+For IHCODEList dropdown, selected value is : <B>DTP-Haemophilus influenzae type b conjugate vaccine</B><br/>
+For IHCODEList dropdown, list count is : 24 and the selected value is : <B>Japanese Encephalitis vaccine for intramuscular administration. US approval 2009. Changes last made on: July 17, 2009</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : Japanese Encephalitis vaccine for intramuscular administration. US approval 2009. Changes last made on: July 17, 2009 has been added<br/>
+<B>Japanese Encephalitis vaccine for intramuscular administration. US approval 2009. Changes last made on: July 17, 2009</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.immunization<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.immunization<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Failed<br/>
+Unable to find element with xpath == //input[@id='editReasonList' and contains(@class,'dijitReset dijitInputInner')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//input[@id='editReasonList' and contains(@class,'dijitReset dijitInputInner')]}<br/>
+Unable to find element with xpath == //input[@id='editReasonList' and contains(@class,'dijitReset dijitInputInner')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//input[@id='editReasonList' and contains(@class,'dijitReset dijitInputInner')]}<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //input[@id=&apos;editReasonList&apos; and contains(@class,&apos;dijitReset dijitInputInner&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//input[@id=&apos;editReasonList&apos; and contains(@class,&apos;dijitReset dijitInputInner&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.selectDojoListValue(CommonLib.java:1120)
+	at historyAndPhysical.pages.HistoryAndPhysicial.editImmunization(HistoryAndPhysicial.java:451)
+	at historyAndPhysical.testcases.HnPTestCases.immunizationTestCases(HnPTestCases.java:278)
+	at CampaignHistoryAndPhysicial.immunization(CampaignHistoryAndPhysicial.java:55)
+	at CampaignLogin.main(CampaignLogin.java:21)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1894758168", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1894758168'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //input[@id=&apos;editReasonList&apos; and contains(@class,&apos;dijitReset dijitInputInner&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//input[@id=&apos;editReasonList&apos; and contains(@class,&apos;dijitReset dijitInputInner&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.selectDojoListValue(CommonLib.java:1120)
+	at historyAndPhysical.pages.HistoryAndPhysicial.editImmunization(HistoryAndPhysicial.java:451)
+	at historyAndPhysical.testcases.HnPTestCases.immunizationTestCases(HnPTestCases.java:278)
+	at CampaignHistoryAndPhysicial.immunization(CampaignHistoryAndPhysicial.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at CampaignLogin.main(CampaignLogin.java:21)
+</pre></div></td>
+<td>58</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.impression()'><b>impression</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-2001115307" onClick='toggleBox("Output-2001115307", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2001115307" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2001115307">
+About to begin executing following method : CampaignHistoryAndPhysicial.impression<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.impression<br/>
+<B>By.xpath: //*[text()='Admit Date:']//following-sibling::td[1]</B> : <B>03/02/2012 07:40</B><br/>
+<B>Impression
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>problemStatus_A_Diag</B> :  Clicked !<br/>
+As per flag: <B>0</B> date is <B>07/30/2018</B><br/>
+As per flag: <B>0</B> date is <B>02/20/2012</B><br/>
+In Text Box <B>diagnosisDate</B> set value  <B>02/20/2012</B>!<br/>
+In Text Box <B>diagnosisTime</B> set value  <B>01:06</B>!<br/>
+For diagnosingPhysicianList dropdown, selected value is : <B>ADELMAN, GARY (657452)</B><br/>
+For diagnosisList dropdown, list count is : 19 and the selected value is : <B>2-part disp fx of surg neck of unsp humerus, init for opn fx (S42223B)</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : 02/20/2012 has been added<br/>
+<B>02/20/2012</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+<B>problemStatus_C_Diag</B> :  Clicked !<br/>
+For diagnosisEditReasonList dropdown, list count is : 6 and the selected value is : <B>Update Patient Information</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Diagnosis with description :  is not added<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.impression<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.impression<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Failed<br/>
+Unable to find element with xpath == //*[@id='DIAGGrid1']//div[2]// tbody/tr/td[text()='02/20/2012'] 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id='DIAGGrid1']//div[2]// tbody/tr/td[text()='02/20/2012'] }<br/>
+Unable to find element with xpath == //*[@id='DIAGGrid1']//div[2]// tbody/tr/td[text()='02/20/2012'] 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id='DIAGGrid1']//div[2]// tbody/tr/td[text()='02/20/2012'] }<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;DIAGGrid1&apos;]//div[2]// tbody/tr/td[text()=&apos;02/20/2012&apos;] 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id=&apos;DIAGGrid1&apos;]//div[2]// tbody/tr/td[text()=&apos;02/20/2012&apos;] }
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.clickButton(CommonLib.java:783)
+	at historyAndPhysical.pages.HistoryAndPhysicial.clickImpression(HistoryAndPhysicial.java:244)
+	at historyAndPhysical.testcases.HnPTestCases.impressionTestCases(HnPTestCases.java:65)
+	at CampaignHistoryAndPhysicial.impression(CampaignHistoryAndPhysicial.java:102)
+	at CampaignLogin.main(CampaignLogin.java:21)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2001115307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2001115307'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;DIAGGrid1&apos;]//div[2]// tbody/tr/td[text()=&apos;02/20/2012&apos;] 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//*[@id=&apos;DIAGGrid1&apos;]//div[2]// tbody/tr/td[text()=&apos;02/20/2012&apos;] }
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.clickButton(CommonLib.java:783)
+	at historyAndPhysical.pages.HistoryAndPhysicial.clickImpression(HistoryAndPhysicial.java:244)
+	at historyAndPhysical.testcases.HnPTestCases.impressionTestCases(HnPTestCases.java:65)
+	at CampaignHistoryAndPhysicial.impression(CampaignHistoryAndPhysicial.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at CampaignLogin.main(CampaignLogin.java:21)
+</pre></div></td>
+<td>86</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.signSubmit()'><b>signSubmit</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-547923534" onClick='toggleBox("Output-547923534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-547923534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-547923534">
+About to begin executing following method : CampaignHistoryAndPhysicial.signSubmit<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.signSubmit<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>Sign and Submit</B> :  Clicked !<br/>
+Sign and submit not working as expected<br/>
+<B> Amend</B> :  Clicked !<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.signSubmit<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.signSubmit<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Failed<br/>
+Unable to find element with xpath == //div[@id='amendDlg']/div[2]//span[text()='OK']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//div[@id='amendDlg']/div[2]//span[text()='OK']}<br/>
+Unable to find element with xpath == //div[@id='amendDlg']/div[2]//span[text()='OK']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'QTPSVR-2', ip: '192.168.104.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//div[@id='amendDlg']/div[2]//span[text()='OK']}<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;amendDlg&apos;]/div[2]//span[text()=&apos;OK&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//div[@id=&apos;amendDlg&apos;]/div[2]//span[text()=&apos;OK&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.clickButton(CommonLib.java:783)
+	at historyAndPhysical.pages.HistoryAndPhysicial.clickAmmend(HistoryAndPhysicial.java:1652)
+	at historyAndPhysical.testcases.HnPTestCases.ammend(HnPTestCases.java:852)
+	at CampaignHistoryAndPhysicial.signSubmit(CampaignHistoryAndPhysicial.java:125)
+	at CampaignLogin.main(CampaignLogin.java:21)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace547923534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace547923534'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;amendDlg&apos;]/div[2]//span[text()=&apos;OK&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:15.31Z&apos;
+System info: host: &apos;QTPSVR-2&apos;, ip: &apos;192.168.104.26&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:46601/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e729e62-4359-4fa4-81c4-b4853304bb20
+*** Element info: {Using=xpath, value=//div[@id=&apos;amendDlg&apos;]/div[2]//span[text()=&apos;OK&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at common.CommonLib.clickButton(CommonLib.java:783)
+	at historyAndPhysical.pages.HistoryAndPhysicial.clickAmmend(HistoryAndPhysicial.java:1652)
+	at historyAndPhysical.testcases.HnPTestCases.ammend(HnPTestCases.java:852)
+	at CampaignHistoryAndPhysicial.signSubmit(CampaignHistoryAndPhysicial.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at CampaignLogin.main(CampaignLogin.java:21)
+</pre></div></td>
+<td>39</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CampaignLogin.FindPatient()'><b>FindPatient</b><br>Test class: CampaignLogin<br/>
+<a href="#Output-1944702768" onClick='toggleBox("Output-1944702768", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1944702768" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1944702768">
+About to begin executing following method : CampaignLogin.FindPatient<br/>
+About to begin executing following method : CampaignLogin.FindPatient<br/>
+Menu :<B>Find Patient</B> Clicked !<br/>
+<B>Patient Search</B> : Clicked ! <br/>
+Radio Button clicked! <B>[[InternetExplorerDriver: internet explorer on WINDOWS (0e729e62-4359-4fa4-81c4-b4853304bb20)] -> xpath: //input[@name='searchType' and @value='PNUM']]</B><br/>
+//input[@name='searchValue'] : <B>2395</B> !<br/>
+<B>Search</B> :  Clicked !<br/>
+Looking for WebElement: By.xpath: //div[@id='patientSearchGrid']/div[2]/div/div/div/div/div/table/tbody/tr/td[3]/a/following-sibling::a[starts-with(@href, 'select-patient')]<br/>
+WebElement: By.xpath: //div[@id='patientSearchGrid']/div[2]/div/div/div/div/div/table/tbody/tr/td[3]/a/following-sibling::a[starts-with(@href, 'select-patient')]is found<br/>
+<B>ADAMS, LESLIE</B> : Clicked ! <br/>
+Completed executing following method : CampaignLogin.FindPatient<br/>
+Completed executing following method : CampaignLogin.FindPatient<br/>
+Test Method resides in CampaignLogin<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>CampaignLogin@3cd1f1c8</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.HistoryPresentIllness()'><b>HistoryPresentIllness</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-603658030" onClick='toggleBox("Output-603658030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-603658030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-603658030">
+About to begin executing following method : CampaignHistoryAndPhysicial.HistoryPresentIllness<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.HistoryPresentIllness<br/>
+<B>History of Present Illness Library: DEFAULT V1</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>By.id: dijitEditorBody</B> : <B>Location: The patient complains of</B><br/>
+History of present illness has been added <br/>
+<B>History of Present Illness Library: DEFAULT V1</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.HistoryPresentIllness<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.HistoryPresentIllness<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignLogin.LoginTest()'><b>LoginTest</b><br>Test class: CampaignLogin<br/>
+<a href="#Output-1636050357" onClick='toggleBox("Output-1636050357", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1636050357" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1636050357">
+About to begin executing following method : CampaignLogin.LoginTest<br/>
+About to begin executing following method : CampaignLogin.LoginTest<br/>
+<B>button.Version</B> :  Clicked !<br/>
+//input[@name='userid'] : <B>root</B> !<br/>
+//input[@name='password'] : <B>password</B> !<br/>
+<B>//select[@name='company']</B> : <B>1 1 - flCantata Community Hospital xLocal Community Hospital x   </B> Selected !<br/>
+<B>button.Submit</B> :  Clicked !<br/>
+Completed executing following method : CampaignLogin.LoginTest<br/>
+Completed executing following method : CampaignLogin.LoginTest<br/>
+Test Method resides in CampaignLogin<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>CampaignLogin@3cd1f1c8</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.cc()'><b>cc</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1172535934" onClick='toggleBox("Output-1172535934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1172535934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1172535934">
+About to begin executing following method : CampaignHistoryAndPhysicial.cc<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.cc<br/>
+<B>CC +Patient Physicians</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>Add</B> :  Clicked !<br/>
+In Text Box <B>patientPhysicianList</B> set value  <B>W</B>!<br/>
+For physicianTypeList dropdown, list count is : 14 and the selected value is : <B>CO-ATTENDING</B><br/>
+For physicianTypeList dropdown, list count is : 14 and the selected value is : <B>RADIOLOGIST</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+<B> Close</B> :  Clicked !<br/>
+[[InternetExplorerDriver: internet explorer on WINDOWS (0e729e62-4359-4fa4-81c4-b4853304bb20)] -> xpath: //div[@id='CC_HPGrid1']/div[2]//table/tbody/tr/td[1]/div] : De-Selected !<br/>
+Physician has been added<br/>
+<B> Edit</B> :  Clicked !<br/>
+<B>Edit</B> :  Clicked !<br/>
+For physicianTypeList dropdown, list count is : 14 and the selected value is : <B>ASSISTANT SURGEON</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+<B> Close</B> :  Clicked !<br/>
+[[InternetExplorerDriver: internet explorer on WINDOWS (0e729e62-4359-4fa4-81c4-b4853304bb20)] -> xpath: //div[@id='CC_HPGrid1']/div[2]//table/tbody/tr/td[1]/div] : De-Selected !<br/>
+Physician has been edited<br/>
+<B> Edit</B> :  Clicked !<br/>
+<B>Delete</B> :  Clicked !<br/>
+<B> Close</B> :  Clicked !<br/>
+Physician has been deleted<br/>
+<B>CC +Patient Physicians</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>Add</B> :  Clicked !<br/>
+In Text Box <B>patientPhysicianList</B> set value  <B>W</B>!<br/>
+For physicianTypeList dropdown, list count is : 14 and the selected value is : <B>SURGEON</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+<B> Close</B> :  Clicked !<br/>
+[[InternetExplorerDriver: internet explorer on WINDOWS (0e729e62-4359-4fa4-81c4-b4853304bb20)] -> xpath: //div[@id='CC_HPGrid1']/div[2]//table/tbody/tr/td[1]/div] : De-Selected !<br/>
+Physician has been added<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.cc<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.cc<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>181</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.familyMedicalHistory()'><b>familyMedicalHistory</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1806880779" onClick='toggleBox("Output-1806880779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1806880779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1806880779">
+About to begin executing following method : CampaignHistoryAndPhysicial.familyMedicalHistory<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.familyMedicalHistory<br/>
+<B>Family Medical History
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+For familyMemberList dropdown, list count is : 17 and the selected value is : <B>SIBLING</B><br/>
+<B>GENDER_F</B> :  Clicked !<br/>
+<B>Add</B> :  Clicked !<br/>
+For diseaseList dropdown, list count is : 19 and the selected value is : <B>1 to 12 seizures a year (finding) (407618000)</B><br/>
+In Text Box <B>ageatDiagnosis</B> set value  <B>3</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : 1 to 12 seizures a year (finding) (407618000) has been added<br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : SIBLING has been added<br/>
+<B>SIBLING</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+For editReasonList dropdown, list count is : 6 and the selected value is : <B>Update Patient Information</B><br/>
+<B>ADOPTED_Y</B> :  Clicked !<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='FMHGrid1']//div[2]//tbody/tr/td[3]/span[text()='SIBLING']/..//following-sibling::td[1]</B> : <B>Yes</B><br/>
+Adoption edited to yes<br/>
+<B>SIBLING</B> :  Clicked !<br/>
+<B> Inactivate</B> :  Clicked !<br/>
+For removalFMHReasonList dropdown, list count is : 6 and the selected value is : <B>Update Patient Information</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+DataSIBLING has  been deleted<br/>
+<B>Family Medical History
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+For familyMemberList dropdown, list count is : 17 and the selected value is : <B>SIBLING</B><br/>
+<B>GENDER_M</B> :  Clicked !<br/>
+<B>Add</B> :  Clicked !<br/>
+For diseaseList dropdown, list count is : 19 and the selected value is : <B>-2 level of presenting part in relation to ischial spines (finding) (289380004)</B><br/>
+In Text Box <B>ageatDiagnosis</B> set value  <B>50</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : -2 level of presenting part in relation to ischial spines (finding) (289380004) has been added<br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : SIBLING has been added<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.familyMedicalHistory<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.familyMedicalHistory<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>124</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.pastMedicalHistory()'><b>pastMedicalHistory</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1048712791" onClick='toggleBox("Output-1048712791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1048712791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1048712791">
+About to begin executing following method : CampaignHistoryAndPhysicial.pastMedicalHistory<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.pastMedicalHistory<br/>
+<B>By.xpath: //*[text()='Admit Date:']//following-sibling::td[1]</B> : <B>03/02/2012 07:40</B><br/>
+<B>Past Medical History
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>problemStatus_C_Diag</B> :  Clicked !<br/>
+As per flag: <B>0</B> date is <B>07/30/2018</B><br/>
+As per flag: <B>0</B> date is <B>02/12/2012</B><br/>
+In Text Box <B>diagnosisDate</B> set value  <B>02/12/2012</B>!<br/>
+In Text Box <B>diagnosisTime</B> set value  <B>00:53</B>!<br/>
+For encounterDiagnosisList dropdown, list count is : 19 and the selected value is : <B>1,3 Indandion poisoning (disorder) (83170004)</B><br/>
+For diagnosingPhysicianList dropdown, selected value is : <B>ADELMAN, GARY (657452)</B><br/>
+For diagnosisList dropdown, list count is : 19 and the selected value is : <B>2-part disp fx of surg nk of l humer, 7thD (S42222D)</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : 02/12/2012 has been added<br/>
+<B>By.xpath: //div[@id='PMHGrid1Border']//td[text()='02/12/2012']//following-sibling::td[3]/span</B> : <B>2-part disp fx of surg nk of l humer, 7thD (S42222D) (C)</B><br/>
+Diagnosis has been added with description :2-part disp fx of surg nk of l humer, 7thD (S42222D) (C)<br/>
+<B>02/12/2012</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+<B>problemStatus_A_Diag</B> :  Clicked !<br/>
+For diagnosisEditReasonList dropdown, list count is : 6 and the selected value is : <B>Data Entry Error</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Diagnosis with description :  is not added<br/>
+<B>By.xpath: //*[text()='Admit Date:']//following-sibling::td[1]</B> : <B>03/02/2012 07:40</B><br/>
+<B>Past Medical History
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>problemStatus_C_Diag</B> :  Clicked !<br/>
+As per flag: <B>0</B> date is <B>07/30/2018</B><br/>
+As per flag: <B>0</B> date is <B>02/24/2012</B><br/>
+In Text Box <B>diagnosisDate</B> set value  <B>02/24/2012</B>!<br/>
+In Text Box <B>diagnosisTime</B> set value  <B>00:55</B>!<br/>
+For diagnosingPhysicianList dropdown, selected value is : <B>ADELMAN, GARY (657452)</B><br/>
+For diagnosisList dropdown, list count is : 19 and the selected value is : <B>2-part disp fx of surg neck of r humerus, init for opn fx (S42221B)</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : 02/24/2012 has been added<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.pastMedicalHistory<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.pastMedicalHistory<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>205</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.pastSurgicalHistory()'><b>pastSurgicalHistory</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-2138005960" onClick='toggleBox("Output-2138005960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2138005960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2138005960">
+About to begin executing following method : CampaignHistoryAndPhysicial.pastSurgicalHistory<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.pastSurgicalHistory<br/>
+<B>By.xpath: //*[text()='Admit Date:']//following-sibling::td[1]</B> : <B>03/02/2012 07:40</B><br/>
+<B>Past Surgical History
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+For procedureList dropdown, list count is : 19 and the selected value is : <B>Abortion of Products of Conception, Laminaria, Via Opening (10A07ZW)</B><br/>
+As per flag: <B>0</B> date is <B>07/30/2018</B><br/>
+As per flag: <B>0</B> date is <B>02/08/2012</B><br/>
+In Text Box <B>procedureStartDate</B> set value  <B>02/08/2012</B>!<br/>
+In Text Box <B>procedureStartTime</B> set value  <B>00:56</B>!<br/>
+For performingPhysicianList dropdown, selected value is : <B></B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : 02/08/2012 has not been added<br/>
+<B>By.xpath: //*[text()='Admit Date:']//following-sibling::td[1]</B> : <B>03/02/2012 07:40</B><br/>
+<B>Past Surgical History
+Physician Reviewed</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+For procedureList dropdown, list count is : 19 and the selected value is : <B></B><br/>
+For procedureList dropdown, list count is : 19 and the selected value is : <B>Abortion of Products of Conception, Endo (10A08ZZ)</B><br/>
+As per flag: <B>0</B> date is <B>07/30/2018</B><br/>
+As per flag: <B>0</B> date is <B>02/15/2012</B><br/>
+In Text Box <B>procedureStartDate</B> set value  <B>02/15/2012</B>!<br/>
+In Text Box <B>procedureStartTime</B> set value  <B>00:57</B>!<br/>
+For performingPhysicianList dropdown, selected value is : <B>ADELMAN, GARY (657452)</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+Data : 02/15/2012 has been added<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.pastSurgicalHistory<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.pastSurgicalHistory<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.physicialExam()'><b>physicialExam</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1178290888" onClick='toggleBox("Output-1178290888", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1178290888" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1178290888">
+About to begin executing following method : CampaignHistoryAndPhysicial.physicialExam<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.physicialExam<br/>
+<B>Physical Exam Library: DEFAULT V3+Vital Signs</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>By.xpath: //div[@id='bosHolder']/div[@id='40Pane']/div[1]//span[@class='dijitTitlePaneTextNode']</B> : <B>Vital Signs</B><br/>
+<B>Y_40_110</B> :  Clicked !<br/>
+<B>By.xpath: //div[@id='bosHolder']/div[@id='40Pane']/div[2]//div[@class='divTable']/div[1]//div[2]//div[@class='divDescription']</B> : <B>Vital Signs Reviewed</B><br/>
+<B>By.xpath: //div[@id='PE']//div[@id='peDivContent']</B> : <B>Vital Sign:blood pressure: ; Glucose Level: ; WEight: ;
+Vital signs reviewed = Normal.</B><br/>
+<br/>
+<B>Physical Exam Library: DEFAULT V3+Vital Signs</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+<B>N_40_110</B> :  Clicked !<br/>
+<B>By.xpath: //div[@id='bosHolder']/div[@id='40Pane']/div[2]//div[@class='divTable']/div[1]//div[2]//div[@class='divDescription']</B> : <B>Vital Signs Reviewed</B><br/>
+<B>Physical Exam Library: DEFAULT V3+Vital Signs</B> :  Clicked !<br/>
+<B>By.xpath: //div[@id='PE']//div[@id='peDivContent']</B> : <B>Vital Sign:blood pressure: ; Glucose Level: ; WEight: ;
+Vital signs reviewed = Abnormal.</B><br/>
+<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.physicialExam<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.physicialExam<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.plan()'><b>plan</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-2029780820" onClick='toggleBox("Output-2029780820", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2029780820" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2029780820">
+About to begin executing following method : CampaignHistoryAndPhysicial.plan<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.plan<br/>
+<B>Plan +Order Entry</B> :  Clicked !<br/>
+<B>+Order Entry</B> :  Clicked !<br/>
+<B>By.className: iframeDialogTitle</B> : <B>Order Entry</B><br/>
+<B>By.xpath: //span[@title='Close']</B> :  Clicked !<br/>
+The title is 'Order Entry'<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.plan<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.plan<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.reviewOfSystem()'><b>reviewOfSystem</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-2145896000" onClick='toggleBox("Output-2145896000", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2145896000" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2145896000">
+About to begin executing following method : CampaignHistoryAndPhysicial.reviewOfSystem<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.reviewOfSystem<br/>
+Menu :<B>Phys Doc</B> Clicked !<br/>
+Menu :<B>History and Physical</B> Clicked !<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.reviewOfSystem<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.reviewOfSystem<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.socialHistory()'><b>socialHistory</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-600958416" onClick='toggleBox("Output-600958416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-600958416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-600958416">
+About to begin executing following method : CampaignHistoryAndPhysicial.socialHistory<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.socialHistory<br/>
+<B>Social History
+Physician Reviewed</B> :  Clicked !<br/>
+<B>Tobacco Status</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>formerUse</B> :  Clicked !<br/>
+For tobaccoChoiceF1 dropdown, list count is : 4 and the selected value is : <B>Pipe Smoke edit2</B><br/>
+In Text Box <B>amountF1</B> set value  <B>3</B>!<br/>
+In Text Box <B>packYearsF1</B> set value  <B>30</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='SHGrid2']//tbody//td</B> : <B>Tobacco use:Former Tobacco User.Tobacco of choice is Pipe Smoke edit2. Tobacco amount is 3. Pack years is 30. End Date is estimated at 07/30/2018.</B><br/>
+tobacco added successfully.<br/>
+<B>Tobacco Status
+Tobacco use:Former Tobacco User.Tobacco of choice is Pipe Smoke edit2. Tobacco amount is 3. Pack years is 30. End Date is estimated at 07/30/2018.</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+For reasonList dropdown, list count is : 7 and the selected value is : <B>Error</B><br/>
+In Text Box <B>amountF1</B> set value  <B>2</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='SHGrid2']//tbody//td</B> : <B>Tobacco use:Former Tobacco User.Tobacco of choice is Pipe Smoke edit2. Tobacco amount is 2. Pack years is 30. End Date is estimated at 07/29/2018.</B><br/>
+tobacco edited successfully.<br/>
+<B>General
+Race is AMERICAN INDIAN/ALASKA NATIVE.</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+In Text Box <B>numOfChildren</B> set value  <B>4</B>!<br/>
+For educationList dropdown, list count is : 17 and the selected value is : <B>masters</B><br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='SHGrid1']//tbody//td</B> : <B>Race is AMERICAN INDIAN/ALASKA NATIVE. Patient has 4 children. Education is masters.</B><br/>
+social added successfully.<br/>
+<B>General
+Race is AMERICAN INDIAN/ALASKA NATIVE. Patient has 4 children. Education is masters.</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+For citizenshipList dropdown, list count is : 14 and the selected value is : <B>Belgian citizen</B><br/>
+<B>By.xpath: //*[@id='SHGrid1']//tbody//td</B> : <B>Race is AMERICAN INDIAN/ALASKA NATIVE. Patient has 4 children. Education is masters. Citizenship is Belgian citizen.</B><br/>
+social edited successfully.<br/>
+<B>Alcohol Status</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>formerUseA</B> :  Clicked !<br/>
+For alcoholChoiceF1 dropdown, list count is : 7 and the selected value is : <B>Wine</B><br/>
+In Text Box <B>amountAF1</B> set value  <B>10</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='SHGrid3']//tbody//td</B> : <B>Alcohol use:Former Alcohol User.Alcohol of choice is Wine. Alcohol amount is 10. End Date is estimated at 07/30/2018.</B><br/>
+Alcohol added successfully.<br/>
+<B>Alcohol Status
+Alcohol use:Former Alcohol User.Alcohol of choice is Wine. Alcohol amount is 10. End Date is estimated at 07/30/2018.</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+For reasonListA dropdown, list count is : 7 and the selected value is : <B>Error</B><br/>
+In Text Box <B>amountAF1</B> set value  <B>2</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='SHGrid3']//tbody//td</B> : <B>Alcohol use:Former Alcohol User.Alcohol of choice is Wine. Alcohol amount is 2. End Date is estimated at 07/29/2018.</B><br/>
+Alcohol edited successfully.<br/>
+<B>Social/Recreational Drug Status</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>formerUseS</B> :  Clicked !<br/>
+For socialRecChoiceF1 dropdown, list count is : 6 and the selected value is : <B>Morphine modified</B><br/>
+In Text Box <B>amountSF1</B> set value  <B>2</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='SHGrid4']//tbody//td</B> : <B>Social Recreational Drug use:Former Social Recreational Drug User.Social Recreational Drug of choice is Morphine modified. Social Recreational Drug amount is 2. End Date is estimate at 07/30/2018.</B><br/>
+Drug added successfully.<br/>
+<B>Social/Recreational Drug Status
+Social Recreational Drug use:Former Social Recreational Drug User.Social Recreational Drug of choice is Morphine modified. Social Recreational Drug amount is 2. End Date is estimate at 07/30/2018.</B> :  Clicked !<br/>
+<B> Edit</B> :  Clicked !<br/>
+For reasonListS dropdown, list count is : 7 and the selected value is : <B>Wrong Patient</B><br/>
+In Text Box <B>amountSF1</B> set value  <B>9</B>!<br/>
+<B>Submit</B> :  Clicked !<br/>
+<B>By.xpath: //*[@id='SHGrid4']//tbody//td</B> : <B>Social Recreational Drug use:Former Social Recreational Drug User.Social Recreational Drug of choice is Morphine modified. Social Recreational Drug amount is 9. End Date is estimate at 07/29/2018.</B><br/>
+Drug added successfully.<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.socialHistory<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.socialHistory<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>183</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+<tr>
+<td title='CampaignHistoryAndPhysicial.studies()'><b>studies</b><br>Test class: CampaignHistoryAndPhysicial<br/>
+<a href="#Output-1447353473" onClick='toggleBox("Output-1447353473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1447353473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1447353473">
+About to begin executing following method : CampaignHistoryAndPhysicial.studies<br/>
+About to begin executing following method : CampaignHistoryAndPhysicial.studies<br/>
+<B>Studies
+Physician Reviewed+Lab Test Summary     +Radiology Results</B> :  Clicked !<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>Cancel</B> :  Clicked !<br/>
+No microbiology record present<br/>
+<B> Add</B> :  Clicked !<br/>
+<B>Cancel</B> :  Clicked !<br/>
+No microbiology record present<br/>
+In Text Box <B>dijitEditorBody</B> set value  <B>JiD</B>!<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.studies<br/>
+Completed executing following method : CampaignHistoryAndPhysicial.studies<br/>
+Test Method resides in CampaignHistoryAndPhysicial<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>CampaignHistoryAndPhysicial@3339ad8e</td></tr>
+</table><p>
+</body>
+</html>
